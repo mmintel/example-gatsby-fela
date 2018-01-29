@@ -17,8 +17,8 @@ const Header = ({ styles }) => (
   </div>
 )
 
-const header = () => ({
-  background: 'rebeccapurple',
+const header = (props) => ({
+  background: props.theme.color,
   marginBottom: '1.45rem',
 })
 
