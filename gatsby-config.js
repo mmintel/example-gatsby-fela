@@ -3,11 +3,6 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: ['gatsby-plugin-react-helmet', {
-    resolve: 'gatsby-plugin-fela',
-    options: {
-      theme: {
-        color: 'rebeccapurple',
-      }
-    }
+    resolve: 'gatsby-plugin-fela'
   }],
 };
