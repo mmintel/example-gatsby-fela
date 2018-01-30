@@ -2864,6 +2864,10 @@ fela-plugin-fallback-value@^5.0.15, fela-plugin-fallback-value@^5.0.16:
   dependencies:
     css-in-js-utils "2.0.0"
 
+fela-plugin-named-keys@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fela-plugin-named-keys/-/fela-plugin-named-keys-1.0.1.tgz#369899f7c59f4d67ea93b756505b0251afe372d5"
+
 fela-plugin-placeholder-prefixer@^5.0.15:
   version "5.0.16"
   resolved "https://registry.yarnpkg.com/fela-plugin-placeholder-prefixer/-/fela-plugin-placeholder-prefixer-5.0.16.tgz#4bbc269369a79fb078457ce34f63d89545d7cf92"
@@ -3190,9 +3194,9 @@ gatsby-module-loader@^1.0.9:
     babel-runtime "^6.26.0"
     loader-utils "^0.2.16"
 
-gatsby-plugin-fela@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-fela/-/gatsby-plugin-fela-0.0.1.tgz#5308aef443858800d54488a5bd7680cfc3a35795"
+gatsby-plugin-fela@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-fela/-/gatsby-plugin-fela-0.0.5.tgz#6aacc86bccf1de39736cfd9fc548198424fcbce1"
   dependencies:
     babel-preset-env "^1.6.1"
     babel-preset-react "^6.24.1"

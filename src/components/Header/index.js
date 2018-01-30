@@ -17,13 +17,13 @@ const Header = ({ styles }) => (
   </div>
 )
 
-const header = (props) => {
-  console.log(props.theme)
-  return {
-    background: props.theme.color,
-    marginBottom: '1.45rem',
+const header = (props) => ({
+  background: props.theme.color,
+  marginBottom: '1.45rem',
+  fromL: {
+    background: 'blue',
   }
-}
+})
 
 const bar = () => ({
   margin: '0 auto',
